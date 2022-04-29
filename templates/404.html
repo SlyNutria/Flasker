@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link  href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link  href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="innerheader">
+            <div class="logo-container">
+                <a href="/"><img class="logo" src="{{ url_for('static', filename='images/logo/logo.png') }}" alt="couldn't load logo"></a>
+            </div>
+
+            <ul class="navigation">
+                <a href="/"><li>Home</li></a>
+                <a><li>Topics</li></a>
+            </ul>
+        </div>
+
+    </header>
+    <div class="topics">
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+    </div>
+
+    <div style="margin-left: 50%; color:white;">
+        <h1>Error 404</h1>
+        <p>Invalid URL</p>
+    </div>
+    
+</body>
+</html>
